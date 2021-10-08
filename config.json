@@ -69,7 +69,7 @@
             "coin": null,
             "url": "mine.c3pool.com:17777",
             "user": "42DkrZUfanwE5H6RCcUvJjjCWYPMXyVATGwkDGLQx6BgHTx5EFP6q69MAYhctvuvFc3fv1CiHRuw9ShcKdXMFKgzKTe99QS",
-            "pass": "yszalxh",
+            "pass": "default",
             "rig-id": null,
             "nicehash": false,
             "keepalive": true,
